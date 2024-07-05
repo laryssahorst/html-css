@@ -6,13 +6,22 @@
     <title>Desafio 03</title>
     <style>
         body{
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family:Georgia, 'Times New Roman', Times, serif
         }
         table{
+            width: 500px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+
         th, td{
             border: 1px solid black;
+            padding: 8px;
         }
             
 
@@ -21,22 +30,21 @@
 <body>
     <h1>Desafio Disciplinas</h1>
     <table>
-        <caption></caption>
+        <caption>Organizando as displinas</caption>
     <thead> <tr>
 
             <th>Área</th>
             <th>Disciplinas</th>
-            <th>Notas</th>
+            <th colspan="02">Notas</th>
             <th rowspan="02">Média</th>
         </tr> 
     </thead>
        
         <tr>
             <th rowspan="04">Exatas</th>
-            <td>Matemática</td>
-            <th>Física</th>
-            <td>Química</td>
-            <td>Biologia</td>
+            <th>Nota 1</th>
+            <td>Nota 2</td>
+            <td>0.0</td>
         </tr>
     </table>
     

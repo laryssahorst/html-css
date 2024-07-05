@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.4em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tr.destaque {
+            background-color: rgb(133, 245, 245);
+        }
+        colgroup{
+            background-color: rgb(4, 93, 145);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+    <table>
+
+    <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+       </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th colspan="col">Nome</th>
+            <th colspan="col">Sexo</th>
+            <th colspan="col">Idade</th>
+            <th colspan="col">Profissão</th>
+        </tr>
+
+        <tr class="destaque">
+            <td>Diego</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Q.A</td>
+        </tr>
+        <tr>
+            <td>Laryssa</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Desing Gráfico</td>
+        </tr>
+        <tr class="destaque">
+            <td>cláudia</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr class="destaque">
+            <td>Jorge</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Pintor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>40</td>
+            <td>Manicure</td>
+        </tr>
+        <tr class="destaque">
+            <td>Otávio</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Gabriela</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
